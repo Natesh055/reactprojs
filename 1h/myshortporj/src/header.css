@@ -1,0 +1,23 @@
+/* Header.css */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #282c34; /* Dark background */
+    padding: 10px 20px; /* Padding for spacing */
+    color: white; /* White text color */
+    z-index: 1000; /* Ensure it's above other elements */
+}
+
+.header img {
+    height: 40px; /* Set image height */
+}
+
+.header h2 {
+    margin: 0; /* Remove default margin */
+    font-size: 1.5rem; /* Font size for the title */
+}

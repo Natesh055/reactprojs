@@ -1,0 +1,76 @@
+.location-card {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 400px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+.image-container {
+    flex: 1;
+    width: 40%;
+    max-width: 150px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 0 0 10px;
+    object-fit: cover;
+}
+
+.details-container {
+    flex: 2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.location-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.location-info img {
+    width: 16px;
+    height: 16px;
+}
+
+.location-info .location-text {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.location-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.date-range {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.description-text {
+    font-size: 1em;
+    color: #333;
+    line-height: 1.4;
+}
+
+.details-container a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.details-container a:hover {
+    text-decoration: underline;
+}
